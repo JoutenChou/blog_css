@@ -1,0 +1,277 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*layout*/
+.wrap-fluid{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrap{
+  width:1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.clear{
+  clear: both;
+}
+/*header*/
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.font-green{
+  color: #00CC99;
+}
+.header{
+  background-color: #00CC99;
+  color: #fff;
+  padding: 18px;
+}
+.header h1{
+  font-size: 1.2rem;
+  display: inline;
+  margin-left: 5px;
+}
+.header .logo{
+  float: left;
+  font-size: 20px;
+}
+.header a{
+  text-decoration: none;
+}
+.header ul{
+  float:right;
+  display: table; 
+}
+.header ul li{
+  display: table-cell;
+  padding-right:20px;
+  color:#fff;
+  opacity: 0.6;
+}
+.header ul li.active{
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.header ul li:hover{
+  opacity: 1;
+}
+/*footer*/
+footer{
+  background: #F8F9FA;
+  padding: 20px;
+  color: rgb(87, 85, 85);
+}
+footer h4{
+  float: left;
+}
+footer .icon{
+  float: right;
+}
+footer .icon a{
+  color: #00CC99;
+}
+/*section*/
+.bread{
+  margin-top: 15px;
+}
+.bread ul {
+  display: table;
+}
+.bread ul li{
+  display: table-cell;
+  color: #8D9896;
+}
+.bread ul li.active a{
+  display: table-cell;
+  color: #8D9896;
+  text-decoration:none;
+}
+.bread a{
+  text-decoration: none;
+  color: #00CC99;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.bread a:hover{
+  text-decoration: underline;
+}
+.wrap h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #00CC99;
+}
+code{
+  color:#EC3E8C;
+}
+.content{
+  float: left;
+  width: 860px;
+  color: rgb(91, 99, 97);
+}
+
+.content small{
+  font-size: 0.8rem;
+}
+.content p{
+  margin-top: 20px;
+  line-height: 2rem;
+  color: #000;
+}
+.content h2{
+  font-size:2rem;
+  color: #8D9896;
+  margin-top: 25px;
+}
+.content ul{
+  margin-left: 50px;
+}
+.content ul li{
+  list-style: disc;
+  line-height: 25px;
+}
+.content img{
+  width: 100%;
+  height: auto;
+}
+.tags{
+  width: 240px;
+  float: right;
+  margin-right: 180px;
+}
+.tags h3{
+  font-size: 2rem;
+  font-weight: bold;
+  color:#6C757D;
+}
+.tags .tags-group{
+  margin-top: 10px;
+  width: 200px;
+}
+.tags .tags-group a{
+  background-color: rgb(30, 176, 199);
+  color:#fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 35px;
+}
+.tags .tags-group a:hover{
+  background-color: #117A8B;
+}
+.message{
+  width: 100%;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.message .message-head{
+  background-color: #F7F7F7;
+  width: 100%;
+  border-bottom: 1px solid #DFDFDF;
+  height: 50px;
+}
+.message .message-head h4{
+  color: #000;
+  font-weight: bold;
+  padding: 15px;
+}
+.message img{
+  float: left;
+  width: 80px;
+  padding: 20px;
+}
+.message .message-content{
+  float: right;
+  width: 700px;
+  margin-right:28px;
+}
+.message h4{
+  color: #00CC99;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.message-body textarea{
+  width: 700px;
+  height:80px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.message-body button{
+  margin-right:35px;
+  width: 705px;
+  height: 35px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer; 
+}
+.message-body button:hover{
+  background-color:rgb(165, 165, 165); 
+}
+.message-reply{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.message-reply h3{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.message-reply p{
+  padding-right:40px;
+  width: 700px;
+  color: #362F29;
+  line-height: 24px;
+}
+.message-box{
+  width: 859px;
+}
+
+
